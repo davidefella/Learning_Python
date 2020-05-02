@@ -6,7 +6,11 @@ Input: Two arguments. Both are int
 
 Output: Int.
 """
-def multiplyTwoNumbers(x, y):
+
+
+#TODO: why specify type?
+def multiplyTwoNumbers(x: int, y):
   return x * y
 
-print(multiplyTwoNumbers(2,5))
+
+print(multiplyTwoNumbers(3, 5))
